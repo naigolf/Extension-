@@ -40,10 +40,10 @@ ffmpeg(URL_IPCam1)
   console.log('snapshot.....OK');
   
   if(count == 0){
-        count = 3
+        count = 2
         checkTimer()
     }else{
-        count = 3
+        count = 2
     }
 
   
