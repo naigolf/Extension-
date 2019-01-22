@@ -10,7 +10,7 @@ const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
 const ffmpeg = require('fluent-ffmpeg');
 ffmpeg.setFfmpegPath(ffmpegPath);
 
-const URL_IPCam1 = "http://viral-no.ddns.net:3241/snapshot.cgi?user=admin&pwd=0841931809"
+const URL_IPCam1 = "http://viral-no.ddns.net:3241/snapshot.cgi?user=admin&pwd=0841931809&res=0"
 const TOKENKEY_LINE_NOTIFY = "TufRdQbmM58LNBHRL1ABl4pJc3nlPYehmgJx3gbU2Hh"
 const MSG_LINE_NOTIFY = "Home alarm"
 
