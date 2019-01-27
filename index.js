@@ -1,6 +1,6 @@
-// สั่งเซฟรูป หรือแคปรูปมาไว้ในโฟเดอร์ชื่อ snapshot แล้วหน่วง 2s > ส่งไลน์
-// แล้วหนาวง 2s เอารูปอื่นมาทับแทนที่ เพื่อไม่ให้ส่งภาพซ้ำ
-// อัพแล้ว  heroku    https://dashboard.heroku.com/apps/golf-security/deploy/heroku-git
+
+
+// ดีพาย  heroku    https://dashboard.heroku.com/apps/golf-security/deploy/heroku-git
 const fs = require('fs');
 const request = require('request');
 const express = require('express');
@@ -40,10 +40,10 @@ ffmpeg(URL_IPCam1)
   console.log('snapshot.....OK');
   
   if(count == 0){
-        count = 2
+        count = 3
         checkTimer()
     }else{
-        count = 2
+        count = 3
     }
 
   
