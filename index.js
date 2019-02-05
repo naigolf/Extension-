@@ -12,7 +12,7 @@ ffmpeg.setFfmpegPath(ffmpegPath);
 
 const URL_IPCam1 = "http://viral-no.ddns.net:3241/snapshot.cgi?user=admin&pwd=0841931809&res=0"
 const TOKENKEY_LINE_NOTIFY = "TufRdQbmM58LNBHRL1ABl4pJc3nlPYehmgJx3gbU2Hh"
-const MSG_LINE_NOTIFY = "Home alarm"
+const MSG_LINE_NOTIFY = "Home alarm -"
 
 var count = 0;
 
@@ -128,7 +128,7 @@ function LineNotify(text, imgPath){
 	form.append('imageFile', fs.createReadStream(imgPath));
  }
 
-
+/*
 
 ////////////////////// ใช้ แยก แต่ ละ ตัว ///////////////////////////////
 
@@ -169,7 +169,7 @@ res.end('change done')
 });
 
     })
-
+*/
 
 
 /*  เก็บไว้ เคยใช้ทำ และทดลอง
